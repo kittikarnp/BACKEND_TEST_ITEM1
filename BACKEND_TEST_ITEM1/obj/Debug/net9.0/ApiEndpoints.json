@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "QuizIslandAPI.Controllers.QuizController",
+    "Method": "SubmitAnswer",
+    "RelativePath": "api/quiz/answer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "QuizIslandAPI.Models.AnswerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizIslandAPI.Controllers.QuizController",
+    "Method": "GetNextQuestion",
+    "RelativePath": "api/quiz/questions/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizIslandAPI.Controllers.QuizController",
+    "Method": "CreateSession",
+    "RelativePath": "api/quiz/session",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizIslandAPI.Controllers.QuizController",
+    "Method": "GetSummary",
+    "RelativePath": "api/quiz/summary/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
